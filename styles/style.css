@@ -6,9 +6,11 @@ body{
     display: flex;
     flex-direction: column;
 }
+p{
+    margin: 0;
+}
 .header {
     background-color: #1F2937;
-    
 }
 .header-bar, .header-content-container {
     padding: 20px 80px 80px 80px;
@@ -34,6 +36,10 @@ body{
     color: #dde0e4;
     font-size: 18px;
 }
+.header-links a {
+    text-decoration: none;
+    color: inherit;
+}
 .header-content-container {
     display: flex;
     gap: 3em;
@@ -57,9 +63,7 @@ body{
     width: 600px;
     height: 100px;
 }
-.header-image{
-    
-}
+
 .header-content-sign-up-button{
     background-color: #3882F6;
     color: #F9FAF8;
@@ -128,8 +132,12 @@ body{
     padding: 2em 0;
     border-radius: 5px;
 }
-.signup-banner-text{
-    font-size: 20px;
+.signup-banner-title{
+    font-weight: bold;
+}
+.signup-banner-subtext{
+    font-weight: 100;
+    color: #E5E7EB;
 }
 .signup-banner button{
     background-color: #3882F6;
